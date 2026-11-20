@@ -1,5 +1,7 @@
 # Vu2020 TDVRP benchmark family (Arigliano-generator TD travel times, larger sizes, curated VRP variant)
 
+> **Archived.** This repository held the TDVRP variant of the Vu2020 benchmark family of MAMUT-routing until November 2026. It is read-only and no longer updated. The family now lives in [MAMUT-routing-Vu2020](https://github.com/ANR-MAMUT/MAMUT-routing-Vu2020), together with its other problem variant. That repository contains the history of this one, and its `history/` directory maps the commit identifiers of this repository to the new ones. This repository keeps the former layout, in which each sidecar sits next to its instance. `mamut-routing-lib` 0.12 and earlier read it, and [MAMUT-routing-archive-2026-11](https://github.com/ANR-MAMUT/MAMUT-routing-archive-2026-11) mounts it at `benchmarks/TDVRP/Vu2020`. `mamut-routing-lib` 0.13 and later read the family repository. Nothing below this notice is maintained.
+
 Satellite benchmark repository of [MAMUT-routing](https://github.com/ANR-MAMUT/MAMUT-routing) (ANR MAMUT, ANR-22-CE22-0016), mounted there as `benchmarks/TDVRP/Vu2020`. Self-contained: instances, canonical arrival-time-function (ATF) sidecars and best-known solutions ship together.
 
 ## What this family is — and what it is not
